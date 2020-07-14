@@ -1,16 +1,14 @@
 ### Hi there 👋
+### I am Mohammad Abed. I am a Front-End Engineer residing currently in Lebanon.
 
-<!--
-**Mhmdabed11/Mhmdabed11** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Here is a bit about me:
+
+- I'm a huge React enthusaist
+- Javascript is my second language
+- I am always looking to collaborate on open-soure projects
+- I probably did not finish 90% of my personal projects
+- Check out my [portfolio](https://mhmdabed.dev)
+
+[![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/mhmdabed11/github-readme-stats)
