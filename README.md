@@ -11,4 +11,4 @@ Here is a bit about me:
 - I probably did not finish 90% of my personal projects
 - Check out my [portfolio](https://mhmdabed.dev)
 
-[![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/mhmdabed11/github-readme-stats)
+[![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/anuraghazra/github-readme-stats)
