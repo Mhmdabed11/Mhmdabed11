@@ -1,5 +1,5 @@
 ### Hi there 👋
-### I am Mohammad Abed. I am a Front-End Engineer residing currently in Lebanon.
+### I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.
 
 
 
