@@ -12,3 +12,4 @@ Here is a bit about me:
 - Check out my [portfolio](https://mhmdabed.dev)
 
 [![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mhmdabed11&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
