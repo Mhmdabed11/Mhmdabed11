@@ -18,6 +18,8 @@ const facts = [
 ];
 
 const factsString = facts.reduce((acc, fact) => acc + `- ${fact}\n`, ``);
+const ghStats = `[![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/anuraghazra/github-readme-stats)`;
+const topLangs = `[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mhmdabed11&layout=compact)](https://github.com/anuraghazra/github-readme-stats)`;
 
 const content = `
 
@@ -27,8 +29,13 @@ ${headerSubIntro}\n
 
 ${explanationAboutMe}\n
 
-${factsString}
+${factsString}\n
+
+${ghStats}\n
+
+${topLangs}
 `;
+
 const markdownContent = md.render(content);
 
 fs.writeFile("README.md", markdownContent, err => {
