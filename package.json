@@ -1,0 +1,24 @@
+{
+  "name": "Mhmdabed11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mhmdabed11/Mhmdabed11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mhmdabed11/Mhmdabed11/issues"
+  },
+  "homepage": "https://github.com/Mhmdabed11/Mhmdabed11#readme",
+  "dependencies": {
+    "markdown-it": "^11.0.0"
+  }
+}

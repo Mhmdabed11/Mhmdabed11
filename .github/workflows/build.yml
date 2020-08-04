@@ -1,0 +1,33 @@
+name: Build READM Dynamically
+
+on:
+  push:
+  workflow_dispatch:
+    - cron `0 0 * * *`
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+      - name: Checkout repository
+        uses: action/checkout@v2
+      - name: Setup Node ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{matrix.node-version}}
+      - name: Install dependencies
+        run: npm ci
+      - name: Build README
+        run: npm start
+      - name: Commit with diff
+        run: |-
+          git add .
+          git diff
+          git config --global user.email "mohammad_aabed@hotmail.com"
+          git config --global user.name "mhmdabed11"
+          git commit -m "Updated README"
+          git push
