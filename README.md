@@ -1,6 +1,6 @@
 <h1>Hi there 👋</h1>
-<h2>I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.</h2>
-<p>Here is a bit about me:</p>
+<p>I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.</p>
+<h2>Here is a bit about me:</h2>
 <ul>
 <li>
 <p>⚛️ I'm a huge React enthusaist</p>
