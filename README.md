@@ -12,7 +12,7 @@
 <p>🔎 I am always looking to collaborate on opensoure projects</p>
 </li>
 <li>
-<p>I probably only completed 90% of 90% of my personal projects</p>
+<p>⌛️ I probably only completed 90% of 90% of my personal projects</p>
 </li>
 <li>
 <p>📝 Check out my <a href="https://mhmdabed.dev">portfolio</a></p>
