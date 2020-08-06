@@ -24,4 +24,4 @@
 <h2>My Recent Blog Posts:</h2>
 </li>
 </ul>
-<p>🚀 <li><a href="https://mhmdabed.dev/things-you-need-to-know-before-writing-your-first-react-app">Things you need to know before writing your first React application</a></li></p>
+ <li><a href="https://mhmdabed.dev/things-you-need-to-know-before-writing-your-first-react-app">🚀 Things you need to know before writing your first React application</a></li>
