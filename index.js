@@ -35,7 +35,7 @@ async function getBlogPosts() {
 }
 
 getBlogPosts().then(postTitles => {
-  let posts = `# My Blog Posts: \n ${postTitles}`;
+  let posts = `# My Recent Blog Posts: \n ${postTitles}`;
 
   const content = `
 
