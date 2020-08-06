@@ -8,8 +8,8 @@ const md = require("markdown-it")({
 
 const headerIntro = "# Hi there 👋";
 const headerSubIntro =
-  "## I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.";
-const explanationAboutMe = "Here is a bit about me:";
+  "I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.";
+const explanationAboutMe = "## Here is a bit about me:";
 const facts = [
   "⚛️ I'm a huge React enthusaist",
   "📖 Javascript is my second language",
