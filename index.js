@@ -29,7 +29,7 @@ async function getBlogPosts() {
   posts.data.result.data.allMdx.edges.forEach(post => {
     postString =
       postString +
-      `🚀 <li><a href="https://mhmdabed.dev/${post.node.frontmatter.slug}">${post.node.frontmatter.title}</a></li>`;
+      `<li><a href="https://mhmdabed.dev/${post.node.frontmatter.slug}">🚀 ${post.node.frontmatter.title}</a></li>`;
   });
   return postString;
 }
