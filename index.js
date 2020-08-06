@@ -50,6 +50,8 @@ getBlogPosts().then(postTitles => {
   ${ghStats}\n
   
   ${topLangs} \n
+
+  ${posts}
   `;
 
   const markdownContent = md.render(content);
