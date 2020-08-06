@@ -1,4 +1,5 @@
 const fs = require("fs");
+const axios = require("axios");
 const md = require("markdown-it")({
   html: true,
   linkify: true,
@@ -22,26 +23,41 @@ const factsString = facts.reduce((acc, fact) => acc + `- ${fact}\n`, ``);
 const ghStats = `[![My github stats](https://github-readme-stats.vercel.app/api?username=mhmdabed11)](https://github.com/anuraghazra/github-readme-stats)`;
 const topLangs = `[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mhmdabed11&layout=compact)](https://github.com/anuraghazra/github-readme-stats)`;
 
-const content = `
+async function getBlogPosts() {
+  const posts = await axios.get("https://mhmdabed.dev/page-data/blog/page-data.json");
+  let postString = "";
+  posts.data.result.data.allMdx.edges.forEach(post => {
+    postString =
+      postString +
+      `<li><a href="https://mhmdabed.dev/${post.node.frontmatter.slug}">${post.node.frontmatter.title}</a></li>`;
+  });
+  return postString;
+}
 
-${headerIntro}\n
+getBlogPosts().then(postTitles => {
+  let posts = `# My Blog Posts: \n ${postTitles}`;
 
-${headerSubIntro}\n
+  const content = `
 
-${explanationAboutMe}\n
+  ${headerIntro}\n
+  
+  ${headerSubIntro}\n
+  
+  ${explanationAboutMe}\n
+  
+  ${factsString}\n
+  
+  ${ghStats}\n
+  
+  ${topLangs} \n
+  `;
 
-${factsString}\n
+  const markdownContent = md.render(content);
 
-${ghStats}\n
-
-${topLangs}
-`;
-
-const markdownContent = md.render(content);
-
-fs.writeFile("README.md", markdownContent, err => {
-  if (err) {
-    return console.error(err);
-  }
-  console.info("Writing to README");
+  fs.writeFile("README.md", markdownContent, err => {
+    if (err) {
+      return console.error(err);
+    }
+    console.info("Writing to README");
+  });
 });

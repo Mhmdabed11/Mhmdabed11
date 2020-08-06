@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Mhmdabed11/Mhmdabed11#readme",
   "dependencies": {
+    "axios": "^0.19.2",
     "markdown-it": "^11.0.0"
   }
 }
