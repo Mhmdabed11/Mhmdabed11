@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Setup nodejs version
         uses: actions/setup-node@v1
         with:
