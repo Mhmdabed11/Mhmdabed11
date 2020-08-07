@@ -1,6 +1,6 @@
 <h1>Hi there 👋</h1>
-<h2>I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.</h2>
-<p>Here is a bit about me:</p>
+<p>I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.</p>
+<h2>Here is a bit about me:</h2>
 <ul>
 <li>
 <p>⚛️ I'm a huge React enthusaist</p>
@@ -12,7 +12,7 @@
 <p>🔎 I am always looking to collaborate on opensoure projects</p>
 </li>
 <li>
-<p>I probably only completed 90% of 90% of my personal projects</p>
+<p>⌛️ I probably only completed 90% of 90% of my personal projects</p>
 </li>
 <li>
 <p>📝 Check out my <a href="https://mhmdabed.dev">portfolio</a></p>
@@ -24,4 +24,4 @@
 <h2>My Recent Blog Posts:</h2>
 </li>
 </ul>
-<p>🚀 <li><a href="https://mhmdabed.dev/things-you-need-to-know-before-writing-your-first-react-app">Things you need to know before writing your first React application</a></li></p>
+ <li><a href="https://mhmdabed.dev/things-you-need-to-know-before-writing-your-first-react-app">🚀 Things you need to know before writing your first React application</a></li>
