@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v2
       - uses: Mhmdabed11/md-replacer@0.2
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKENN }}
