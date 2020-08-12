@@ -1,4 +1,4 @@
-name: Update README
+name: Update READMEE
 on:
   push:
   workflow_dispatch:
