@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Twitter Statss
+    name: Twitter Stats
     runs-on: ubuntu-latest
 
     strategy:
