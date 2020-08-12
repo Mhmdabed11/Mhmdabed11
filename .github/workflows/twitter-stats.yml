@@ -1,19 +1,12 @@
-name: Twitter Stats
-
+name: Update README
 on:
   push:
   workflow_dispatch:
 
 jobs:
   build:
-    name: Twitter Stats
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node: [12.x]
     steps:
-      - name: Checkout the repo
-        uses: actions/checkout@v2
-      - name: mohammad-aabed-action-1
-        uses: Mhmdabed11/md-replacer@0.1
+      - uses: actions/checkout@v2
+      - uses: jamesgeorge007/github-activity-readme@master
