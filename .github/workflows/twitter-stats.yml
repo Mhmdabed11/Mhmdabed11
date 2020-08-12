@@ -1,0 +1,19 @@
+name: Build README Dynamically
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build README
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node: [12.x]
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+      - name: mohammad-aabed-action-1
+        uses: Mhmdabed11/md-replacer@0.1
