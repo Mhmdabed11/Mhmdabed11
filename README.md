@@ -1,4 +1,5 @@
-<h1>Hi there 👋</h1>
+<h2>These are my twitter stats</h2>
+
 <p>I am Mohammad Abed. I am a Front-End Engineer and a Javascript Enthusaist.</p>
 <h2>Here is a bit about me:</h2>
 <ul>
