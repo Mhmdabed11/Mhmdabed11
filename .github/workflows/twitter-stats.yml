@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: Mhmdabed11/md-replacer@0.22
+      - uses: Mhmdabed11/md-replacer@0.21
